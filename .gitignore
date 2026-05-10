@@ -1,0 +1,30 @@
+# ── Project data (not redistributable) ──────────────────────────────────────
+Issues/
+output/
+installer/
+
+# ── Project-internal files ───────────────────────────────────────────────────
+CLAUDE.md
+tasks/
+*.log
+
+# ── Files not part of this project ──────────────────────────────────────────
+bondi_to_pdf.py
+Dockerfile
+.dockerignore
+logo.png
+LICENSE
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
